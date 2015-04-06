@@ -1,32 +1,48 @@
-# Eventstore
+[gem]: https://rubygems.org/gems/estore
+[travis]: https://travis-ci.org/eventstore-rb/estore
+[gemnasium]: https://gemnasium.com/eventstore-rb/estore
+[codeclimate]: https://codeclimate.com/github/eventstore-rb/estore
+[inchpages]: http://inch-ci.org/github/eventstore-rb/estore
+[gitter]: https://gitter.im/eventstore-rb/estore?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
 
-Ruby client library Eventstore
+# Estore
 
-Eventstore is an open-source, functional database
-with Complex Event Processing in JavaScript
+[![Join the chat at https://gitter.im/eventstore-rb/estore](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/eventstore-rb/estore?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-[![Circle CI](https://circleci.com/gh/mathieuravaux/eventstore-ruby.svg?style=svg)](https://circleci.com/gh/mathieuravaux/eventstore-ruby)
+[![Gem Version](https://badge.fury.io/rb/estore.svg)][gem]
+[![Build Status](https://travis-ci.org/eventstore-rb/estore.svg?branch=master)][travis]
+[![Dependency Status](https://gemnasium.com/eventstore-rb/estore.png)][gemnasium]
+[![Code Climate](https://codeclimate.com/github/eventstore-rb/estore/badges/gpa.svg)][codeclimate]
+[![Test Coverage](https://codeclimate.com/github/eventstore-rb/estore/badges/coverage.svg)][codeclimate]
+[![Inline docs](http://inch-ci.org/github/eventstore-rb/estore.svg?branch=master)][inchpages]
+[![Join the chat at https://gitter.im/eventstore-rb/estore](https://badges.gitter.im/Join%20Chat.svg)][gitter]
 
-## Install
+An [Event Store](http://geteventstore.com/) driver for Ruby
 
-Add this line to your application's Gemfile and run Bundler:
+## Installation
+
+Add this line to your application's Gemfile:
 
 ```ruby
-gem 'eventstore'
+gem 'estore'
 ```
+
+And then execute:
+
+    $ bundle
 
 Or install it yourself as:
 
-    $ gem install eventstore
+    $ gem install estore
 
 ## Usage
 
+See [spec/integration/session_spec.rb](spec/integration/session_spec.rb) for a sample usage.
 
+## License
 
-## Contributing
+See [LICENSE](LICENSE) file.
 
-1. Fork it ( https://github.com/mathieuravaux/eventstore/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+## Credits
+
+  * [Mathieu Ravaux](https://github.com/mathieuravaux)
